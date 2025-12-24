@@ -3,11 +3,17 @@
     width: 100%;
     max-width: 400px;
   }
+  #category-container {
+    flex-wrap: wrap;
+  }
 }
 
 @media screen and (max-width: 992px) {
   .hero {
     flex-direction: column-reverse;
+  }
+  .hero-content {
+    text-align: center;
   }
 }
 
@@ -17,5 +23,11 @@
   }
   .logo img {
     width: 280px;
+  }
+  .hero-content h2 {
+    font-size: 40px;
+  }
+  .category-box {
+    flex-direction: column;
   }
 }
