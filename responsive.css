@@ -1,7 +1,14 @@
 @media screen and (max-width: 1200px) {
+  .hero-img img {
+    width: 100%;
+    max-width: 400px;
+  }
 }
 
 @media screen and (max-width: 992px) {
+  .hero {
+    flex-direction: column-reverse;
+  }
 }
 
 @media screen and (max-width: 640px) {

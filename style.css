@@ -1,31 +1,79 @@
-*{
-    margin: 0;
-    padding: 0;
-    font-family: "Poppins", sans-serif;
-    /* font-family: "Inter", sans-serif; */
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  /* font-family: "Inter", sans-serif; */
 }
 
 /* shared styles */
 
 .container {
-    width: 80%;
-    margin: 0 auto;
+  width: 80%;
+  margin: 0 auto;
+}
+
+.nav,
+.hero {
+  margin-bottom: 40px;
 }
 
 /* nav styels */
 
 .nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding-top: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
 }
 
 .nav .logo img {
-    width: 100%;
-    max-width: 140px;
+  width: 100%;
+  max-width: 140px;
 }
 .nav .menu img {
-    width: 100%;
-    max-width: 40px;
+  width: 100%;
+  max-width: 40px;
+}
+
+/* hero section */
+
+.hero {
+  background-color: #feeae9;
+  display: flex;
+  padding: 50px;
+  border-radius: 10px;
+  margin: 0 auto;
+  gap: 100px;
+  align-items: center;
+}
+.hero-content {
+  width: 100%;
+  margin-bottom: 15px;
+}
+.hero-content h2 {
+  font-size: 50px;
+  font-weight: bold;
+  color: #1f1f1f;
+}
+.hero-content h4 {
+  color: #ff136f;
+  font-size: 40px;
+  font-weight: 400;
+}
+.hero-content p {
+  font-size: 17px;
+  color: #4e4e4e;
+}
+.hero-content button {
+  border-radius: 6px;
+  background: linear-gradient(to right, #ff589b, #ff136f);
+  padding: 10px 35px;
+  color: white;
+  border-radius: 6px;
+  border: none;
+}
+
+.hero-img {
+  width: 100%;
+  max-width: 400px;
 }
