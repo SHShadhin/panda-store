@@ -122,7 +122,6 @@
   border: 2px solid #929292;
   border-radius: 12px;
   padding: 15px;
-  width: 100%;
 }
 .shoe-box .img {
   width: 100%;
@@ -154,3 +153,33 @@
   border: none;
   margin-bottom: 10px;
 }
+
+
+/* Newsletter section */
+#news-container {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  background-color: #FFF2F1;
+  padding: 100px;
+  text-align: center;
+}
+
+#news-container h2 {
+  font-size: 30px;
+  font-weight: 600;
+  color: #1F1F1F;
+}
+#news-container p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #929292;
+}
+#news-container form input[type=text] {
+  width: 100%;
+  padding: 10px;
+}
+#news-container form {
+  display: flex;
+  margin-top: 20px;
+}
+
